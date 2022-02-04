@@ -1,3 +1,4 @@
+###Deutsch###
 In dieser Aufgabe seid ihr Geheimagenten (uuh) die eine Nachricht entschlüsseln müssen.
 1) Die Daten werden aber nicht einfach so veröffentlicht. Nur wenn eure Node mit dem Namen
 "secret_node" läuft, fängt die publisher node an ihre daten zu veröffentlichen.
