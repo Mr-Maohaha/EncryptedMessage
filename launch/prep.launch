@@ -1,0 +1,7 @@
+<launch>
+
+    <rosparam command="load" file="$(find prep_pkg)/param/sequences.yaml" />
+
+    <node pkg="prep_pkg" type="prep" name="prep" output="screen" />
+
+</launch>
