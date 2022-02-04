@@ -1,0 +1,27 @@
+Ihr habt die gleiche Aufgabe wie davor, nur dieses mal hat die node, die verschlüsselt einen Fehler.
+Sie versendet einen zufälligen key, der wahrscheinlich nicht richtig ist. Um trotzdem noch die Daten
+entschlüsseln zu können müssen ihr den schlüssel selber setzen.
+Dazu soll eine launch file die nodes starten, bzw. die launch file in diesem package mitbenutzen und die
+entsprechenden werte für den schlüssel und die zeichen sequenz übergeben, denn es gibt jetzt mehrere
+zeichenfolgen.
+Eure node soll den key ebenfalls vom parameter server beziehen.
+
+
+###English###
+The task remains the same as before, but the publisher node has an error, the used key does not match
+the published key. To be able to decrypt the message you have to set it manually using the ros parameter
+server. Therefore, use a launch file to run your node, to set the parameter "key" and include the launch 
+file in the prep_pkg. In addition, there are multiple message texts now.
+Your node should also use the value from the parameter server.
+
+
+###Links for usage###
+- publisher/subscriber
+    http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
+- service server/client
+    http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29
+- launch file xml
+    http://wiki.ros.org/roslaunch/XML
+
+- parameter (.yaml) files
+    http://wiki.ros.org/rosparam
