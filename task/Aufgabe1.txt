@@ -1,0 +1,23 @@
+In der ersten Aufgabe geht es darum einen Subscriber zu schreiben.
+1) Dieser soll anschließend das Topic "/prep_topic" subscriben, auf der eine std_msgs/Int64 message
+gepublished wird.
+
+2) Zusätzlich soll berechnet werden, ob der Integer in der Message gerade ist.
+Die Aussage soll als ros Message gepublished werden. Dazu gibt es eine Message in diesem Package
+mit dem namen "preparationMessage", die eine Variable darin soll den Integer enthalten, der geprüft
+wurde, die andere einen kurzen Text, ob die Zahl gerade is oder nicht.
+
+
+###English###
+The first task is to write a Subscriber.
+1) The Subscriber should subscribe the topic "/prep_topic" and receives a std_msgs/Int64 message.
+
+2) In addition, the node should calculate weather the number is even or odd. The result should be 
+published as a ros message. The message that has to be used is a "preparationMessage" form the 
+prep_pkg. This message contains one variable for the number that was checked and one for a small
+text that says the nummer is even/odd if thats the case.
+
+
+###Links for Usage###
+- Publisher/Subscriber
+    http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
