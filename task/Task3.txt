@@ -1,3 +1,4 @@
+###Deutsch###
 Ihr habt die gleiche Aufgabe wie davor, nur dieses mal hat die node, die verschlüsselt einen Fehler.
 Sie versendet einen zufälligen key, der wahrscheinlich nicht richtig ist. Um trotzdem noch die Daten
 entschlüsseln zu können müssen ihr den schlüssel selber setzen.
